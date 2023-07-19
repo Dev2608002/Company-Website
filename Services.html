@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        *{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: "work sans", sans-serif;
+}
+a:link {
+  text-decoration: none;
+}
+
+
+section{
+	height:130vh;
+	width:100%;
+
+	display:grid;
+	place-items: center;
+
+}
+
+.section-heading{
+	color: #ff3946;
+	font-size: 3rem;
+
+}
+.row{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.column{
+
+	width: 100%;
+
+	padding: 0 1rem 1rem 1rem;
+	text-align: center;
+}
+
+.card{
+
+	width: 100%;
+	height:100%;
+	padding:2rem 1.5rem;
+	background: linear-gradient(#ffffff 50%, #ff3946 50%);
+	background-size: 100% 200%;
+	background-position: 0 2.5%;
+	border-radius: 5px;
+	box-shadow: 0 5px 9px 0 #a3a2a2;
+	cursor:pointer;
+
+}
+
+h3{
+	font-size: 20px;
+	font-weight: 600;
+	color: #1f194c;
+	margin: 1rem 0;
+
+}
+
+p{
+	color: #575a7b;
+	font-size: 15px;
+	line-height: 1.6;
+	letter-spacing: 0.03rem;
+}
+
+.icon-wrapper{
+
+	position:relative;
+	margin: auto;
+	font-size: 30px;
+	height: 2.5rem;
+	width: 2.5rem;
+	color: #ff3946;
+	border-radius:50%;
+	display: grid;
+	place-item:center;
+	transition: 0.5s;
+
+}
+
+.card:hover{
+	background-position: 0 100%;
+	background:linear-gradient(45deg, rgba(255, 28,8,0.8) 0%, rgba(255,0,82,0.8) 100%),
+	url('IMAGES/dg.jpg');
+	background-size:cover;
+
+}
+
+.card2:hover{
+	background-position: 0 100%;
+	background:linear-gradient(45deg, rgba(255, 28,8,0.8) 0%, rgba(255,0,82,0.8) 100%),
+	url('IMAGES/socialmedia1.png');
+	background-size:cover;
+
+}
+.card3:hover{
+	background-position: 0 100%;
+	background:linear-gradient(45deg, rgba(255, 28,8,0.8) 0%, rgba(255,0,82,0.8) 100%),
+	url('IMAGES/ppc.jpg');
+	background-size:cover;
+
+}
+.card4:hover{
+	background-position: 0 100%;
+	background:linear-gradient(45deg, rgba(255, 28,8,0.8) 0%, rgba(255,0,82,0.8) 100%),
+	url('IMAGES/ga.jpg');
+	background-size:cover;
+
+}
+.card5:hover{
+	background-position: 0 100%;
+	background:linear-gradient(45deg, rgba(255, 28,8,0.8) 0%, rgba(255,0,82,0.8) 100%),
+	url('IMAGES/seoour.jpg');
+	background-size:cover;
+
+}
+.card6:hover{
+	background-position: 0 100%;
+	background:linear-gradient(45deg, rgba(255, 28,8,0.8) 0%, rgba(255,0,82,0.8) 100%),
+	url('IMAGES/cm.jpg');
+	background-size:cover;
+
+}
+
+
+.card:hover .icon-wrapper{
+
+	color: #ffffff;
+}
+
+.card:hover h3{
+	color: #ffffff;
+}
+
+.card:hover p{
+	color: #f0f0f0;
+}
+
+@media screen and (min-width: 768px){
+
+	section{
+		padding:0.2rem;
+
+	}
+	.column{
+		flex: 0 50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (min-width: 992px){
+
+	section{
+		padding: 1rem 3rem;
+	}
+
+	.column{
+		flex: 0 0 33.33%;
+		max-width:33.33%;
+	}
+}
+    </style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Our Services</title>
+
+    <!--/*font awesome icons*/-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link type="text/css" rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!--rubik font family -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap"rel="stylesheet">
+
+    <!--custom css-->
+    <link type="text/css" rel="stylesheet" href="Services.css" />
+
+
+
+</head>
+<body>
+   <section>
+    <div class="row">
+	   <h2 class="section-heading">Our Services</h2>
+
+	</div>
+
+	<div class="row">
+	  <div class="column">
+	    <div class="card card1"><a href="file:///C:/Users/Nidhi/Desktop/Imperial%20Website/DigitalMarketing.html">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-chart-simple"></i>
+		  </div>
+		  <h3>Digital Marketing Services</h3>
+		  <p>Our digital marketing agency helps you solve your branding Marketing & Design problem.
+		  We offer one-stop solution for all your digital platform.</p>
+
+	   </a></div>
+	  </div>
+
+	  <div class="column">
+	    <div class="card card2">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-laptop"></i>
+		  </div>
+		  <h3>Social Media Marketing</h3>
+		  <p>Don't just engage your followers. Convert them into loyal customers.
+		  By Conducting well-through-out multi-channel social media campagin
+		  that go viral. We get you the leads,sales & brand recognition that your business need to grow exponentially.</p>
+	   </div>
+	  </div>
+
+	  <div class="column">
+	    <div class="card card3">
+	      <div class="icon-wrapper">
+		     <i class="fa-sharp fa-solid fa-arrow-pointer"></i>
+		  </div>
+		  <h3>Pay-Per-Click</h3>
+		  <p>Our digital marketing agency helps you solve your branding Marketing & Design problem.
+		  We offer one-stop solution for all your digital platform.</p>
+	   </div>
+	  </div>
+
+	  <div class="column">
+	    <div class="card card4">
+	      <div class="icon-wrapper">
+		     <i class="fa-brands fa-google"></i>
+		  </div>
+		  <h3>Google Ads</h3>
+		  <p>Right Google ads can help you sell more for less in today's crowded digital media, we look forward to ranking
+		  higher & beating the market leaders on your preferred keywords through targeted google ad campagin.</p>
+	   </div>
+	  </div>
+
+	  <div class="column">
+	    <div class="card card5">
+	      <div class="icon-wrapper">
+		    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+		  </div>
+		  <h3>SEO</h3>
+		  <p>Bring on top of google search results in the easiest form of sales strategy and also the most difficult to master.
+		  our strategies will slowly but surely bring you up in front of your most potential audience.</p>
+	   </div>
+	  </div>
+
+	  <div class="column">
+	    <div class="card card6">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-wand-magic-sparkles"></i>
+		  </div>
+		  <h3>Content Marketing</h3>
+		  <p>Blending your virtual venues with creative graphics solution,we will enhance your reach & appeal
+		  to the prospects.As a one stop for all creative marketing needs strategy which we will give you.</p>
+	   </div>
+	  </div>
+
+
+	  <div class="column">
+	    <div class="card card6">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-wand-magic-sparkles"></i>
+		  </div>
+		  <h3>Election Management</h3>
+		  <p>The digital marketing is very powerful tool now a days. In
+				today’s century digital marketing campaign is being gives
+				priority by right political parties to reach more and right
+				people. These days it has become easy to reach people
+				through social platforms.
+				</p>
+	   </div>
+	  </div>
+
+
+	  <div class="column">
+	    <div class="card card6">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-wand-magic-sparkles"></i>
+		  </div>
+		  <h3>Whatsapp Bulk SMS</h3>
+		  <p>Blending your virtual venues with creative graphics solution,we will enhance your reach & appeal
+		  to the prospects.As a one stop for all creative marketing needs strategy which we will give you.</p>
+	   </div>
+	  </div>
+
+
+	  <div class="column">
+	    <div class="card card6">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-wand-magic-sparkles"></i>
+		  </div>
+		  <h3>Bulk SMS</h3>
+		  <p>Through Bulk SMS service, we are able to make good contact with
+				voters of the area. Our team make all content for bulk SMS. Our team is known
+				for reaching more voters in minutes and for sending appropriate messages to
+				voters.</p>
+	   </div>
+	  </div>
+
+	  <div class="column">
+	    <div class="card card6">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-wand-magic-sparkles"></i>
+		  </div>
+		  <h3>OBD</h3>
+		  <p>Our team is committed to providing these services with your
+				voice to the right place and voters. Through this service we can send millions of
+				calls in a minute.</p>
+	   </div>
+	  </div>
+
+	  <div class="column">
+	    <div class="card card6">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-wand-magic-sparkles"></i>
+		  </div>
+		  <h3>CRM</h3>
+		  <p></p>
+	   </div>
+	  </div>
+
+	  <div class="column">
+	    <div class="card card6">
+	      <div class="icon-wrapper">
+		     <i class="fa-solid fa-wand-magic-sparkles"></i>
+		  </div>
+		  <h3>Digital Marketing Consultancy</h3>
+		  <p>By maximize your social media engagement, we will help you establish a
+		  stronger online presence and create more trust among your prospects.</p>
+	   </div>
+	  </div>
+
+
+
+
+	 </div>
+
+
+   </section>
+
+</body>
+
+
+</html>
